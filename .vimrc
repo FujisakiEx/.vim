@@ -20,7 +20,6 @@ augroup END
 " dein settings {{{
 " dein自体の自動インストール
 
-let g:denops#deno = '/home/fujisakiex/.deno/bin/deno'
 let s:cache_home = empty($XDG_CACHE_HOME) ? expand('~/.cache') : $XDG_CACHE_HOME
 let s:dein_dir = s:cache_home . '/dein'
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
