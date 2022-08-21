@@ -36,7 +36,6 @@ if dein#load_state(s:dein_dir)
   call dein#add('Shougo/ddc.vim')
 
   call dein#add('vim-denops/denops.vim')
-  call dein#add('vim-denops/denops_helloworld.vim')
 
 " Install your sources
   call dein#add('Shougo/ddc-around')
